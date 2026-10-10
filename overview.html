@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="A1fvMaxrBUAG649lYgoKoo">
+<head data-page-node-id="OlL4dq7aPyAGdYHHz6q0Up">
+<meta charset="UTF-8" data-page-node-id="GwWqBhB8xk26RMWl5EDe6Z">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="OKwbOmH3MHuCvr72cex1Dh">
+<title>心膳 CardioMCD · 心血管视角的麦当劳点餐顾问</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280; --line:#e5e7eb;
+    --card:#f9fafb; --accent:#b91c1c;
+    --green:#16a34a; --amber:#d97706; --red:#dc2626;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:40px 24px;background:var(--bg);color:var(--fg);
+       font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+       line-height:1.7;}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{font-size:28px;margin:0 0 8px}
+  .tagline{font-size:17px;color:var(--accent);font-weight:600;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 28px}
+  h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--card);font-weight:600;font-size:13px;color:var(--muted)}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+  .g{background:var(--green)} .a{background:var(--amber)} .r{background:var(--red)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0}
+  .card .name{font-weight:600}
+  .card .meta{color:var(--muted);font-size:13px;margin-top:4px}
+  .warn{background:#fffbeb;border-left:4px solid var(--amber);padding:12px 16px;border-radius:4px;
+        font-size:14px;margin:16px 0}
+  .ok{background:#f0fdf4;border-left:4px solid var(--green);padding:12px 16px;border-radius:4px;
+      font-size:14px;margin:16px 0}
+  .disc{background:#fef2f2;border-left:4px solid var(--red);padding:12px 16px;border-radius:4px;
+        font-size:13px;color:#7f1d1d;margin:24px 0}
+  code{background:var(--card);padding:2px 6px;border-radius:4px;font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:12px 0}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px}
+  .stat .k{font-size:13px;color:var(--muted)}
+  .stat .v{font-size:20px;font-weight:700;margin-top:2px}
+  ul{margin:8px 0;padding-left:22px}
+  li{margin:4px 0}
+  .hl{background:#fef3c7;padding:1px 4px;border-radius:3px}
+  .footer{color:var(--muted);font-size:12px;margin-top:36px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body data-page-node-id="1rhGuvaVBc3VQmI2U8OMXC">
+<div class="wrap" data-page-node-id="8znefQXdHJAYiynkCHRIpN">
+
+  <p class="tagline" data-page-node-id="nmlK9B3NdjRPAdZ8KsX0LL">别人算卡路里，我们算钠。</p>
+  <h1 data-page-node-id="XqYx7fzpNKck6wJKEYPBNW">心膳 CardioMCD</h1>
+  <p class="sub" data-page-node-id="finfGhWiX5e5FRi8ZHFfc1">基于麦当劳 MCP 真实营养数据 · 按《中国高血压防治指南(2024年修订版)》与 DASH 的钠预算，给每样餐品打红绿灯</p>
+
+  <div class="grid" data-page-node-id="7IFZah2YENjjgyysz3FAq8">
+    <div class="stat" data-page-node-id="AeBsWiaR1T4q5kS7aKEJlh"><div class="k" data-page-node-id="IOU5eeTKcEmN8AX0PVrDEe">真实解析餐品</div><div class="v" data-page-node-id="vJzQHzWKngbi47GEjmaq8r">158 条</div></div>
+    <div class="stat" data-page-node-id="hOvcm0QkSSS6jjDDH1tq7F"><div class="k" data-page-node-id="0ra0Yl1Mw6yxtP1OSZ4kpR">数据来源</div><div class="v" data-page-node-id="bpm7Rtqy6a10FAyFZJvnBB">MCP 实时</div></div>
+    <div class="stat" data-page-node-id="Kbfal0KoPEljA5vKYItUdx"><div class="k" data-page-node-id="r3IcNNSCXYGWh2w1NQmZxE">高血压 · 早餐钠预算</div><div class="v" data-page-node-id="VGMWPJyrZyla1JZzBhaBHI">300 mg</div></div>
+    <div class="stat" data-page-node-id="GUmYoewUHAB8VgTbUnGj1A"><div class="k" data-page-node-id="PSW9UmRJ4zGaNhyYFDO4ZE">高血压 · 午餐钠预算</div><div class="v" data-page-node-id="BdlqFy2cVd8Z4tVBkC9gSc">600 mg</div></div>
+    <div class="stat"><div class="k">单元测试</div><div class="v">75 / 75 通过</div></div>
+  </div>
+
+  <h2>两个入口：正常人群是默认，病史是可选</h2>
+  <p class="sub" style="margin:0 0 12px"><strong>不需要声明任何病史就能直接用。</strong>病史只在用户主动提供时才启用，且只用于收紧预算 —— 不把健康人医疗化。</p>
+
+  <div class="grid">
+    <div class="stat"><div class="k">入口一 · 正常人群（默认）</div><div class="v">钠 2000 mg/d</div>
+      <div class="k" style="margin-top:6px">早餐 400 mg ／ 午餐 800 mg</div></div>
+    <div class="stat"><div class="k">入口二 · 心血管风险人群</div><div class="v">钠 1500 mg/d</div>
+      <div class="k" style="margin-top:6px">早餐 300 mg ／ 午餐 600 mg</div></div>
+  </div>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">同一个餐品，两个入口结论不同</h3>
+  <table>
+    <thead><tr><th>入口</th><th class="num">每日钠</th><th class="num">早餐预算</th><th>判定</th><th class="num">午餐预算</th><th>判定</th></tr></thead>
+    <tbody>
+      <tr><td><strong>正常人群（默认）</strong></td><td class="num">2000 mg</td><td class="num">400 mg</td><td><span class="dot r"></span>110%</td><td class="num">800 mg</td><td><span class="dot a"></span><strong>55% 可选项</strong></td></tr>
+      <tr><td>高脂血症</td><td class="num">2000 mg</td><td class="num">400 mg</td><td><span class="dot r"></span>110%</td><td class="num">800 mg</td><td><span class="dot a"></span>55%</td></tr>
+      <tr><td>高血压 / 慢性肾病</td><td class="num">1500 mg</td><td class="num">300 mg</td><td><span class="dot r"></span>147%</td><td class="num">600 mg</td><td><span class="dot a"></span>74%</td></tr>
+      <tr><td>高血压 + 高血脂</td><td class="num">1500 mg</td><td class="num">300 mg</td><td><span class="dot r"></span>147%</td><td class="num">600 mg</td><td><span class="dot a"></span>74%</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:4px 0 0">以上为「儿童鱼排堡 442 mg」在四个入口下的判定。</p>
+
+  <div class="ok">
+    <strong>两个入口给出的建议完全不同，这就是价值所在：</strong><br>
+    • <strong>正常人群 + 午餐</strong> → <strong>有得选</strong>：儿童鱼排堡（55%）、烟肉蛋麦满分（60%）都在黄灯内，直接给可执行建议。<br>
+    • <strong>高血压 + 早餐</strong> → <strong>没得选</strong>：最低的儿童鱼排堡仍占 147%。此时<strong>不假装有解</strong>，诚实说明"钠几乎必然超标，能做的是选相对最低那一档"。
+  </div>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">正常人群入口的真实输出（午餐，158 条实时数据）</h3>
+  <div class="card"><div class="name">相对最低钠的主食（蛋白 ≥ 15 g）</div>
+    <div class="meta">餐次：午餐（钠权重 40%）→ 单餐钠预算 <strong>800 mg</strong>｜每日 2000 mg</div></div>
+  <table>
+    <thead><tr><th>餐品</th><th>灯</th><th class="num">钠 mg</th><th class="num">占单餐预算</th><th class="num">能量</th><th class="num">蛋白 g</th></tr></thead>
+    <tbody>
+      <tr><td>冰牛奶大杯</td><td><span class="dot g"></span>绿灯</td><td class="num">154</td><td class="num">19%</td><td class="num">269</td><td class="num">15</td></tr>
+      <tr><td>儿童鱼排堡</td><td><span class="dot a"></span>黄灯</td><td class="num">442</td><td class="num">55%</td><td class="num">269</td><td class="num">15</td></tr>
+      <tr><td>烟肉蛋麦满分</td><td><span class="dot a"></span>黄灯</td><td class="num">483</td><td class="num">60%</td><td class="num">260</td><td class="num">16</td></tr>
+      <tr><td>蜜汁BBQ风味薄皮脆汁鸡-琵琶腿</td><td><span class="dot r"></span>红灯</td><td class="num">547</td><td class="num">68%</td><td class="num">173</td><td class="num">18</td></tr>
+      <tr><td>麦香鱼</td><td><span class="dot r"></span>红灯</td><td class="num">556</td><td class="num">70%</td><td class="num">325</td><td class="num">16</td></tr>
+    </tbody>
+  </table>
+
+  <h2>为什么不是"算热量"</h2>
+  <p data-page-node-id="ZW4Tz1fVAXy6Dl2dFAHXYE">一个麦辣鸡腿堡含钠 <strong data-page-node-id="R2d8FbRewIjDoxM8m0FFWx">1208 mg</strong>，是高血压人群<strong data-page-node-id="mO3MWkPFjFodOw5cIOZo2Z">早餐</strong>钠预算（300 mg）的 <strong data-page-node-id="0moeDwJmTLxMw9SwnUr2hX">4.0 倍</strong>，
+  而它的热量（485 kcal）看起来"还行"。<strong data-page-node-id="7s2o6NOLg5cwp3d9Uu4mbp">只看热量会漏掉真正的风险。</strong></p>
+
+  <h2 data-page-node-id="97EzYgLAODeN6I0Qtol2vS">⚠️ 餐次必须显式化 —— 不按"三餐均分 ÷3"</h2>
+  <p data-page-node-id="e6nTPVmbq35BJVSWDG8Tre">早期版本把每日钠预算直接除以 3 得单餐预算。<strong data-page-node-id="nqDD1VdA9SZBrbtOvUqR3Z">这是错的，已修正</strong>：</p>
+  <ul data-page-node-id="nMRteHwtLT6dnRjsKPCfJh">
+    <li data-page-node-id="SVVbFOYhBR5pwsnxNaTUja">指南只给出<strong data-page-node-id="GCbsJXal1wH81gzlQ2UAQm">每日</strong>目标，从未规定三餐各占多少 —— ÷3 是凭空假设；</li>
+    <li data-page-node-id="lcunA7BwfO6JJiGIeQTu54">生理学上也不成立：<strong class="hl" data-page-node-id="JKSD6AQTrC8EAJBVABcMXT">早餐有能量，但钠负荷远低于午晚餐</strong>。我国膳食钠 78.34% 来自食盐与调味品（国家食品安全风险评估中心），而早餐一般不含炒菜、酱料等高盐烹调食物。按 ÷3 会系统性<strong data-page-node-id="9cbOV96EabRetYg0kiBAH3">高估早餐钠空间、低估午晚餐</strong>。</li>
+  </ul>
+  <table data-page-node-id="WGrgEg28bLE5IUDabjBvX7">
+    <thead data-page-node-id="sSXwDLpWSZNfrzyOQfoL2E"><tr data-page-node-id="wqHua4mUeTBjYiWFNg1L2l"><th data-page-node-id="ofCFfX1420i1ZFtoXRDI9i">餐次</th><th class="num" data-page-node-id="Fj6Usb8RJCNUtPOkGu6uW9">钠权重</th><th class="num" data-page-node-id="sgfpXmBmOHJxfcRpByaaqB">能量权重</th><th class="num" data-page-node-id="GXpC8yvtIRC8lYFHIPyHss">高血压(1500 mg/d)</th><th class="num" data-page-node-id="RXi7zr39jHzN41mgNiArom">一般人群(2000 mg/d)</th></tr></thead>
+    <tbody data-page-node-id="07qRzYnOq3yfUM6AG28uQt">
+      <tr data-page-node-id="um7TXNaHjKmjshim2gv93t"><td data-page-node-id="efyM6TmLc040JiT3YMZEqP">早餐 breakfast</td><td class="num" data-page-node-id="905XrJvr9eU3l0fgXFuqZm">20%</td><td class="num" data-page-node-id="dhM1EDkpKJ5RQ8kjdrFPti">30%</td><td class="num" data-page-node-id="FhK8FeRiS4t57NqbJCjnvo"><strong data-page-node-id="8hmkJaJLiLYtmiuMV3BGEl">300 mg</strong></td><td class="num" data-page-node-id="bUGziXpdyUamEm7Gwq2tkT">400 mg</td></tr>
+      <tr data-page-node-id="TwQolMho5pOlGVs5uUAG2D"><td data-page-node-id="9swu23SGAgC12zqA1zOcmI">午餐 lunch</td><td class="num" data-page-node-id="yhlaEc6JXKkk8kVEb7ENT1">40%</td><td class="num" data-page-node-id="MHu398X2fOxBqYccBnGVbC">40%</td><td class="num" data-page-node-id="sViDTIWVCEkukr2NZb5DTl"><strong data-page-node-id="A8mtOiN3ZZqbue9Pw6iky6">600 mg</strong></td><td class="num" data-page-node-id="T6j4nFSIyA7skD9mgXugGt">800 mg</td></tr>
+      <tr data-page-node-id="9eKmyu1iHRum7LmyeQOzV6"><td data-page-node-id="ou1MAOco2CgKIGi7TjduFq">晚餐 dinner</td><td class="num" data-page-node-id="n7FyN5IWecqrIkJSiNf134">40%</td><td class="num" data-page-node-id="JfrOxlE0XD0qFZDL9sl8TG">30%</td><td class="num" data-page-node-id="W2X7pLbLnZS9gRuNwlZX8S"><strong data-page-node-id="Fh002ebdJKhKgyH9cKScM8">600 mg</strong></td><td class="num" data-page-node-id="kYT2HXEcAxvsEVxg8BALHU">800 mg</td></tr>
+      <tr data-page-node-id="Fw17ftya2CrN0CXqsIvUtk"><td data-page-node-id="4vEmMNyZ7V8ZuQ56qMWAXB">加餐 snack</td><td class="num" data-page-node-id="mQrMPHKhSQuWl73AIN2Mq3">10%</td><td class="num" data-page-node-id="CTNnNuZGknz5cNfAxTWKf2">10%</td><td class="num" data-page-node-id="wSqPHPpJw8Ux3TSHhV732a">150 mg</td><td class="num" data-page-node-id="l0OwfS2mWDfEziaCdPMa5t">200 mg</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:4px 0 0">能量 30/40/30 参考《中国居民膳食指南》三餐供能比建议区间；钠 20/40/40 为<strong>工程默认值</strong>——无任何成人指南规定餐次钠分配，但取值与三个独立来源一致（见下）。两者均可覆盖。</p>
+
+  <div class="ok">
+    <strong>未指定餐次时怎么办？</strong><br>
+    模块<strong>不做任何餐次分配假设</strong>：钠改为按"占每日预算比例"判定（<strong>≤10% 🟢 ／ &gt;10% 且 ≤40% 🟡 ／ &gt;40% 🔴</strong>），
+    并且<strong>拒绝给出组合推荐</strong> —— 因为不知道是哪一餐，就没有可比的单餐钠上限。
+    宁可少给一个答案，也不给一个建立在假设上的答案。<br>
+    <span style="color:var(--muted)">40% 红灯起点的含义：一件东西就吃掉全天钠预算的四成，已足以单独构成一餐的全部钠负荷。⚠️ 这是本模块自定的分级阈值，非指南数值。</span>
+  </div>
+
+  <h2>🔍 国际核查：到底有没有"每餐钠"标准？</h2>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">① 成人高血压：没有一家指南规定"每餐钠"</h3>
+  <table>
+    <thead><tr><th>机构 / 指南</th><th>钠推荐</th><th>单位</th></tr></thead>
+    <tbody>
+      <tr><td>WHO 2012（2023 重申）</td><td>&lt; 2000 mg/d（食盐 &lt; 5 g/d）</td><td><strong>每日</strong></td></tr>
+      <tr><td><strong>2025 ACC/AHA</strong> 高血压指南</td><td>≤ 2300 mg/d，理想 &lt; 1500 mg/d；重申 DASH；钾 3500–5000 mg/d；新增钾盐替代（中等强度证据）</td><td><strong>每日</strong></td></tr>
+      <tr><td><strong>2024 ESC</strong> 血压升高与高血压管理</td><td>钠 ≤ 2 g/d（≈盐 5 g/d），I 类；新增低钠盐 <strong>IIa / A</strong>（SSaSS、DECIDE-Salt）</td><td><strong>每日</strong></td></tr>
+      <tr><td>2023 ESH</td><td>≈ ≤ 2 g/d 钠</td><td><strong>每日</strong></td></tr>
+      <tr><td>2023 NICE</td><td>低钠；未给具体数值</td><td><strong>每日</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">② 但按餐次的钠上限确实存在 —— 在学校供餐（儿童）</h3>
+  <table>
+    <thead><tr><th>国家</th><th>早餐</th><th>午餐</th></tr></thead>
+    <tbody>
+      <tr><td>美国 USDA NSLP/SBP（周平均）</td><td>K-5 <strong>540 mg</strong>（2027-07 起 485）；9-12 640 → 570</td><td>K-5 <strong>1,110 mg</strong>（2027-07 起 935）；9-12 1,280 → 1,080</td></tr>
+      <tr><td>英格兰（每餐上限）</td><td>—</td><td>小学（7–10 岁）<strong>499 mg</strong>；中学 <strong>714 mg</strong></td></tr>
+      <tr><td>日本（学校午餐）</td><td>—</td><td>6–7 岁 &lt;600；8–11 岁 &lt;800；12–14 岁 &lt;<strong>1,000 mg</strong></td></tr>
+      <tr><td>韩国</td><td>—</td><td>教育部仅提"每餐目标值"，<strong>未纳入法定标准</strong>，各校自定</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:4px 0 0">USDA 明确写明 "sodium limits do not apply per day, per meal, or per menu item" —— 是<strong>周平均</strong>口径，且为儿童标准，成人不可直接套用。</p>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">③ 三个独立来源，与本项目的 20/40 高度一致</h3>
+  <table>
+    <thead><tr><th>来源</th><th>早餐 : 午餐</th><th class="num">比值</th></tr></thead>
+    <tbody>
+      <tr><td><strong>本项目默认值</strong></td><td>20% : 40%</td><td class="num"><strong>0.50</strong></td></tr>
+      <tr><td>USDA 学校餐（K-5）</td><td>540 : 1,110 mg</td><td class="num"><strong>0.49</strong></td></tr>
+      <tr><td>DASH 官方 2000 kcal / 2300 mg 菜单实测</td><td>早餐 508 mg（22%）: 午餐 905 mg（39%）</td><td class="num"><strong>22% : 39%</strong></td></tr>
+      <tr><td>中国沈阳市卫健委官方科普</td><td>「午餐占三餐的 <strong>40%</strong>，一餐食盐 5 g × 40% = 2 g」</td><td class="num"><strong>0.40</strong></td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="font-size:16px;margin:20px 0 8px">④ 一个<strong>不得采用</strong>的旧口径</h3>
+  <div class="warn" style="margin-top:4px">
+    国内流行的「每餐盐不超过 2 g、每天不超过 6 g」—— 源自 <strong>6 g/d 的旧版</strong>指南并做三餐均分（2×3=6）。
+    指南已更新为 5 g/d，且均分假设正是本项目已废弃的错误。<strong>不采用。</strong>
+  </div>
+
+  <h2>📋 数字来源标注：我们按多少给的</h2>
+  <p class="sub" style="margin:0 0 8px">每个参与判定的数值都登记在 <code>SOURCE_ANNOTATION</code>，可用 <code>python src/cardio_score.py --sources</code> 打印。</p>
+  <table>
+    <thead><tr><th>常量</th><th>取值</th><th>性质</th><th>来源 / 依据</th></tr></thead>
+    <tbody>
+      <tr><td><code>CN_HTN_2024_DAILY_SODIUM_MG</code></td><td>2000 mg/d</td><td><strong style="color:var(--green)">指南锚定</strong></td><td>《中国高血压防治指南(2024)》食盐 &lt;5 g/d；WHO 成人钠 &lt;2000 mg/d（一致）</td></tr>
+      <tr><td><code>DASH_STANDARD_DAILY_SODIUM_MG</code></td><td>2300 mg/d</td><td><strong style="color:var(--green)">指南锚定</strong></td><td>DASH 标准版；2025 ACC/AHA ≤2300 mg/d</td></tr>
+      <tr><td><code>DASH_LOWER_DAILY_SODIUM_MG</code></td><td>1500 mg/d</td><td><strong style="color:var(--green)">指南锚定</strong></td><td>DASH 低钠版；2025 ACC/AHA 理想 &lt;1500 mg/d</td></tr>
+      <tr><td><code>MEAL_ENERGY_SHARE</code></td><td>早30/午40/晚30/加餐10</td><td><strong style="color:var(--green)">指南锚定</strong></td><td>《中国居民膳食指南》三餐供能比建议区间</td></tr>
+      <tr><td><code>DEFAULT_DAILY_FAT_G</code></td><td>66.7 g/d</td><td style="color:#2563eb">推导</td><td>2000 kcal × 30% ÷ 9 kcal/g（供能比上限 30% 出自膳食指南）</td></tr>
+      <tr><td><code>DEFAULT_DAILY_CARB_G</code></td><td>275 g/d</td><td style="color:#2563eb">推导</td><td>2000 kcal × 55% ÷ 4 kcal/g</td></tr>
+      <tr><td><code>DEFAULT_DAILY_ENERGY_KCAL</code></td><td>2000 kcal/d</td><td style="color:var(--muted)">本模块自定</td><td>成人参考摄入量，工程默认，可覆盖</td></tr>
+      <tr><td><code>MEAL_SODIUM_SHARE</code></td><td>早20/午40/晚40/加餐10</td><td style="color:var(--muted)">本模块自定</td><td>无成人指南规定餐次钠分配；与三来源一致（USDA 0.49／DASH 22%:39%／沈阳卫健委 40%）</td></tr>
+      <tr><td><code>SODIUM_DAILY_SHARE_GREEN</code></td><td>≤10% 每日钠 → 绿</td><td style="color:var(--muted)">本模块自定</td><td>分级阈值，仅未指定餐次时启用</td></tr>
+      <tr><td><code>SODIUM_DAILY_SHARE_AMBER</code></td><td>≤40% → 黄；&gt;40% → 红</td><td style="color:var(--muted)">本模块自定</td><td>使用者指定：单品占全天钠四成即红灯</td></tr>
+      <tr><td><code>ENERGY/FAT_DAILY_SHARE_*</code></td><td>1/9 与 2/9</td><td style="color:var(--muted)">本模块自定</td><td>等价于"单餐占日均 1/3"后再三分档</td></tr>
+      <tr><td><code>HYPERLIPIDEMIA_FAT_FACTOR</code></td><td>× 0.8</td><td style="color:var(--muted)">本模块自定</td><td>高脂血症脂肪收紧 20%</td></tr>
+      <tr><td><code>_light_by_thirds</code> 分档</td><td>≤1/3 绿／≤2/3 黄／&gt;2/3 红</td><td style="color:var(--muted)">本模块自定</td><td>分级规则，非指南原文</td></tr>
+      <tr><td>参考：中国临床限钠膳食</td><td>低盐2000／无盐1000／低钠≤500</td><td><strong style="color:var(--green)">指南锚定</strong></td><td>中国临床营养分级，列出备查，当前未直接采用</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:4px 0 0">单元测试 <code>TestSourceAnnotation</code> 锁死这张表：餐次钠权重<strong>必须</strong>标为"本模块自定"、不得伪装成"指南锚定"；常量改动而标注没同步，测试会失败。</p>
+
+  <h2 data-page-node-id="ifqksFKbolTKfJdnN8eDeG">高血压 + 早餐的红绿灯（实时数据节选）</h2>
+  <p class="sub" style="margin-bottom:8px" data-page-node-id="W2BMZwt1K7a4PlYYOMrbqt">钠预算锚点：DASH 低钠版 1500 mg/d × 20% → 单餐 300 mg ｜ 能量 600 kcal ｜ 脂肪 20.0 g</p>
+  <table data-page-node-id="90cotBkWbono8iv5wvAddE">
+    <thead data-page-node-id="ujpuFkhE3gM6qCsfOFO3lA"><tr data-page-node-id="HtVNgmJlzGxjHcEIFVSYUJ"><th data-page-node-id="Z1g2uY2TCL9HURxEmbxB9e">餐品</th><th data-page-node-id="JcJ0NgesFKdOdio8eJ0ld1">灯</th><th class="num" data-page-node-id="z3vPx6QKX2YPWoFavmDSok">钠 mg</th><th class="num" data-page-node-id="aw3WFniq1XVXeJ9pPNvlCQ">占单餐</th><th class="num" data-page-node-id="bTYpAkTmWXrczSHpPxnjXn">占每日</th><th class="num" data-page-node-id="LI5b0309LU9E3y0wXk6hvy">能量</th><th class="num" data-page-node-id="gW1nNL9qIUX8xG8mY10jQt">蛋白 g</th></tr></thead>
+    <tbody data-page-node-id="Ium3wFrIV4t2HmIn7H221D">
+      <tr data-page-node-id="5hiRoNi3tEEEF74BDVAYtA"><td data-page-node-id="LAqMTRG5Dq4FhqhHAu5dDs">芝士双层安格斯厚牛堡</td><td data-page-node-id="Ii5APdEWTrShP5rbSXgIBW"><span class="dot r" data-page-node-id="2DeezLfaKMv4CuC0YsgPgM"></span>红灯</td><td class="num" data-page-node-id="OEk33xrG30tHnSM7rim6Le">1373</td><td class="num" data-page-node-id="TsJSL20750m40Rne2TSb8i">458%</td><td class="num" data-page-node-id="TN13RaNi4X6ljQHdCaAyW0">92%</td><td class="num" data-page-node-id="5rDlTVxwqPNXFsjuLLzREz">1003</td><td class="num" data-page-node-id="0GF5SExga1fop71WTA39IF">58</td></tr>
+      <tr data-page-node-id="BawbqoV2MRabDFU8C6spjO"><td data-page-node-id="WHTiyEFZPuvA8a0dXToWm7">双层猪柳蛋麦满分</td><td data-page-node-id="FAFFuZY4JQBN7VNGfQaSWp"><span class="dot r" data-page-node-id="ZDGbnV00J89xzXB8GUxsnt"></span>红灯</td><td class="num" data-page-node-id="8HcgYz3km1q8JU2zlo6rvP">1210</td><td class="num" data-page-node-id="HFamIjdaKCo2541zhbQkjA">403%</td><td class="num" data-page-node-id="BCUTZnMITUUfh624PbEuSZ">81%</td><td class="num" data-page-node-id="XDKWesICGkO809bcwIzQig">513</td><td class="num" data-page-node-id="67tmdGSQMqkDASC0YTHpk4">29</td></tr>
+      <tr data-page-node-id="llI8gbG2MjBri7BEHlcHiL"><td data-page-node-id="jvjysHCeNnlQXgMiiC2ZKf">麦辣鸡腿汉堡</td><td data-page-node-id="HcLlY0UGyvSkt84GmlSpg5"><span class="dot r" data-page-node-id="rBnCpeIu4t9yG2Pbx5OtWZ"></span>红灯</td><td class="num" data-page-node-id="Q73im1oKdZeTfLpJKoJAcV">1208</td><td class="num" data-page-node-id="JkFB9gsq6d85McAASSuyvr">403%</td><td class="num" data-page-node-id="kc15TEbFu664NgcdgtvmWT">81%</td><td class="num" data-page-node-id="uGRzhU0hWImxZuxmJFQK4a">485</td><td class="num" data-page-node-id="rroQv1WeGWb4nzmbGr9pV6">24</td></tr>
+      <tr data-page-node-id="twbEaxYRDvGisJEIzq8mCX"><td data-page-node-id="hgOUPqDbsBHkOBCqMX06kw">火腿扒早安营养卷</td><td data-page-node-id="mRbcZdEwEk7fHnzwyilXLx"><span class="dot r" data-page-node-id="sFnmSWHGLJkimuCb813Qit"></span>红灯</td><td class="num" data-page-node-id="DClzQzQBbfD5ZZ7j7ZHs3P">1065</td><td class="num" data-page-node-id="ny70f6RlwhSf6V4kDBqo1K">355%</td><td class="num" data-page-node-id="FpW2f7WvWH6U9pr88ie4oD">71%</td><td class="num" data-page-node-id="5AnVrMejPtckZaaYUBPlVL">444</td><td class="num" data-page-node-id="GUMg7gyVT9bASObwyeAhfO">16</td></tr>
+      <tr data-page-node-id="7cBEAH35BqtY1c9oQ0EOvu"><td data-page-node-id="C5e7rFv5teA70fSaWCQ3Nh">板烧鸡腿堡</td><td data-page-node-id="9bgif0RgEHJE5Qfcij7elJ"><span class="dot r" data-page-node-id="COwSL0xD6z8RaRmhRv9zvh"></span>红灯</td><td class="num" data-page-node-id="8jE6GXkfAqzdLt0mPNSFRI">1041</td><td class="num" data-page-node-id="TXIQK6IpbzxvtUZEcu5qLl">347%</td><td class="num" data-page-node-id="LstO4MhaU5U2rDtjqhFrFL">69%</td><td class="num" data-page-node-id="HXCQK6brnPuXN0LIBx2Z4a">391</td><td class="num" data-page-node-id="LTNPdRyYniSHwsuk4hSMA5">23</td></tr>
+      <tr data-page-node-id="56DTDPJKo9ztJL7WnlxZ6X"><td data-page-node-id="Yqbxr6gXIKC7AYLAS19THu">中薯条</td><td data-page-node-id="raKtwA4Pjiy0Fr89Saxdtv"><span class="dot a" data-page-node-id="i3phOewIC5gVVC96zE3voo"></span>黄灯</td><td class="num" data-page-node-id="GQDQEWUcQx47J27KYpjYQB">165</td><td class="num" data-page-node-id="oOhLP3Ovja3lQe1o1Q2fvE">55%</td><td class="num" data-page-node-id="21UoMAgcnHyNefnXzxihdz">11%</td><td class="num" data-page-node-id="eDOjNcsBFMQ7C3dL3omX0A">289</td><td class="num" data-page-node-id="stwEdZYkHe1GWx0msfYUeQ">4</td></tr>
+      <tr data-page-node-id="DUunPvyJGWDTTGyAaVG4C6"><td data-page-node-id="jZeC1MuYs2WG2N8h87DGjm">大杯玉米杯</td><td data-page-node-id="c6NXWTgURTTeAJidAt4c34"><span class="dot g" data-page-node-id="TXV9crSGWOkHxmU0Np1XJD"></span>绿灯</td><td class="num" data-page-node-id="kpNgklV66Zdqj2xDZkwTya">2</td><td class="num" data-page-node-id="EKddqvobs6J1lqgkz3fc0z">1%</td><td class="num" data-page-node-id="cHat8LPQkhXSuX2rKHnNQ6">0%</td><td class="num" data-page-node-id="CgO5lG302ULr5GHyCyS8Z0">87</td><td class="num" data-page-node-id="mWTopfcAjetHTNOqkzCf7V">4</td></tr>
+      <tr data-page-node-id="Q3Kp60HrNifQfbHmEoL7hd"><td data-page-node-id="GJKCKATpFhJos7sYadmDhu">圆筒冰淇淋</td><td data-page-node-id="lToVbUJWUDNc84tYgDKAFj"><span class="dot g" data-page-node-id="T7ngT3fLOZPVys8pp7QS3Q"></span>绿灯</td><td class="num" data-page-node-id="1sqa4t0zrWP1y4hJzQV84i">36</td><td class="num" data-page-node-id="tRJ6G5bJD0e3L6qcSZcKP9">12%</td><td class="num" data-page-node-id="A2iC5706JFAwr0tRLkhSVu">2%</td><td class="num" data-page-node-id="RFpzj6ER7NIHSoGwfPz2gA">93</td><td class="num" data-page-node-id="PFqqDRy9RAlt0cQJF8uECP">2</td></tr>
+    </tbody>
+  </table>
+
+  <h2 data-page-node-id="D8PuHqURiDCRbVHtmLvUgl">同一个餐品，餐次不同 → 结论不同</h2>
+  <table data-page-node-id="6oTqL1K8IeXBF5NMbd78cM">
+    <thead data-page-node-id="yqFNi18Bus9NGyQHwb0B3q"><tr data-page-node-id="P0FH9A7PJXy9cT5mw3fzfS"><th data-page-node-id="gjeDLdaatPDh7v2At2eNDU">餐品</th><th class="num" data-page-node-id="tzwnq1EvZAzRVWaDxMms8E">钠</th><th data-page-node-id="8iy4fFRiLdGlqXEVbzq9r5">早餐（预算 300 mg）</th><th data-page-node-id="iN5Y3jAqyoFtE5LWHOY8OD">午餐（预算 600 mg）</th></tr></thead>
+    <tbody data-page-node-id="hhMBVepHzF6vocotovEaH2">
+      <tr data-page-node-id="gSO3iqe1iIqPzS4LcRCwgD"><td data-page-node-id="KOybBPGGlJRDTje5jQ0Dxe">儿童鱼排堡</td><td class="num" data-page-node-id="So6fUygVsnxOyfXZRMPxUZ">442 mg</td><td data-page-node-id="fCwZ6PKNALVTU6mj3i8qyQ"><span class="dot r" data-page-node-id="2mE4pUzCx6RhEVsvDmfD2S"></span><strong data-page-node-id="agE7o6w0vZVvGF9JFKxwvQ">147% 红灯</strong></td><td data-page-node-id="LgoNHGzGGBOJFijLV4Uq03"><span class="dot a" data-page-node-id="DJKpw1h7G0Mc4CBH59UXuA"></span>74% 黄灯</td></tr>
+      <tr data-page-node-id="O4fCTDqYiyiXgC16nKVa7y"><td data-page-node-id="o0H8ZSPbJDxdcXEVvSiZju">烟肉蛋麦满分</td><td class="num" data-page-node-id="IG0FQaPOfTmsVQaOjHDZO0">483 mg</td><td data-page-node-id="DC6rPQDm2ErYb3JcHuwO1t"><span class="dot r" data-page-node-id="bWCxJQK2d0r36GlX9swSAA"></span><strong data-page-node-id="LEGApfoQIX6miNBMqZ5WHB">161% 红灯</strong></td><td data-page-node-id="V7xTmoobzDzXLCGzbOADmK"><span class="dot a" data-page-node-id="CxaG0VrY138YIUlt6G1KvN"></span>80% 黄灯</td></tr>
+      <tr data-page-node-id="E3OHzSaZDz56mzRXiSiAtQ"><td data-page-node-id="YSHDa75Q5XKsF8NjoHlbWh">麦香鱼</td><td class="num" data-page-node-id="M2CEZhl4MXV4vSxm4AJ0BO">556 mg</td><td data-page-node-id="y4w9ueYYf3hAQUObj5Un1E"><span class="dot r" data-page-node-id="p0PvoKo4RUAmtY4t7LCSGZ"></span><strong data-page-node-id="gxfg5kND6LNKmoltqW2Xe0">185% 红灯</strong></td><td data-page-node-id="Tt8hn4EFuINCZ9G3Wgl1DS"><span class="dot a" data-page-node-id="HA5qSW0NtjXEFKciNyLeSq"></span>93% 黄灯</td></tr>
+    </tbody>
+  </table>
+  <p class="sub" style="margin:4px 0 0" data-page-node-id="0XA7MjjRHE9gdovnCaRHEt">按 ÷3 均分只会得出"儿童鱼排堡占 88%"这个<strong data-page-node-id="9FxSQ3Ke4wCiuhDi20ezTZ">既不属于早餐也不属于午餐</strong>的中间数 —— 对现实没有指导价值。</p>
+
+  <h2 data-page-node-id="PO2BVt7VXdtxq0kmKpogWB">相对最低钠的主食（蛋白 ≥ 15 g，高血压早餐口径）</h2>
+  <p data-page-node-id="2wQLfEd0oIDzZ8HXL0hpe4">收紧钠预算后，绝大多数主菜单品<strong data-page-node-id="xzIiFWTvB40nVeGbQzXc0O">一件就爆表</strong>。以下是如实给出的相对最优解：</p>
+  <div class="card" data-page-node-id="wQ6ArysCZbZRw2T48XmhAl"><div class="name" data-page-node-id="WFKWZwXF2G5CvVBs7smrFs"><span class="dot a" data-page-node-id="op587bFspT3pj4uOLCELtm"></span>冰牛奶大杯</div>
+    <div class="meta" data-page-node-id="lem6uK0zStDpEKvfPnonC5">钠 154 mg（占 <strong data-page-node-id="zctqGZODugyiL0p1ezBwAR">51%</strong>）｜ 能量 269 kcal ｜ 脂肪 13 g ｜ 蛋白 15 g</div></div>
+  <div class="card" data-page-node-id="dlYelRHKI5V0yvJ3JYWC0Z"><div class="name" data-page-node-id="fU2fofWIBRY16KGQk07l9S"><span class="dot r" data-page-node-id="NSLzkuOirm5H9qMDC8ayDM"></span>儿童鱼排堡</div>
+    <div class="meta" data-page-node-id="u0q4mbTG0sl4mQ0GZ2DKRo">钠 442 mg（占 <strong data-page-node-id="GjC1vGJY66JF6AkOsGKoKe">147%</strong>）｜ 能量 269 kcal ｜ 脂肪 6 g ｜ 蛋白 15 g</div></div>
+  <div class="card" data-page-node-id="XJMFOuPPROiLRRRuvmCn7C"><div class="name" data-page-node-id="DGJqkeY2l3CMP6AFgeqTRt"><span class="dot r" data-page-node-id="5D4kPFJX2R7IQWLF8wXku6"></span>烟肉蛋麦满分</div>
+    <div class="meta" data-page-node-id="Pays1GLT7w0JWdNtczhKoF">钠 483 mg（占 <strong data-page-node-id="u5fpjfj3U1YCYE28ppzOnS">161%</strong>）｜ 能量 260 kcal ｜ 脂肪 10 g ｜ 蛋白 16 g</div></div>
+  <div class="card" data-page-node-id="ja22Z0hvToMrBCl6wCjH7R"><div class="name" data-page-node-id="znM3L4VNQVa7hMKi5iLSel"><span class="dot r" data-page-node-id="EqGWPgebTOizDJa87Q0nHv"></span>蜜汁BBQ风味薄皮脆汁鸡-琵琶腿</div>
+    <div class="meta" data-page-node-id="ktkfgqjyhzez6zX9VN5EuD">钠 547 mg（占 182%）｜ 能量 173 kcal ｜ 脂肪 9 g ｜ 蛋白 18 g</div></div>
+  <div class="card" data-page-node-id="oQw7gVMjtjygF1zjr8XeKz"><div class="name" data-page-node-id="JLFZu3xOFD0PryO8tKlBDC"><span class="dot r" data-page-node-id="HyprvD3kuE6Ul2pskACmXi"></span>麦香鱼</div>
+    <div class="meta" data-page-node-id="nQ4VvUhzYqo6CgBOsReuua">钠 556 mg（占 185%）｜ 能量 325 kcal ｜ 脂肪 13 g ｜ 蛋白 16 g</div></div>
+  <div class="warn" data-page-node-id="guw0hFfUsjcCmRGu7RDws6">
+    <strong data-page-node-id="kcbUcpgOIlpTaeFXCvNahW">这张表最有价值的结论：</strong>在高血压的早餐钠预算下，麦当劳主菜单品<strong data-page-node-id="tIZLC4MBoG7mdnVF3PsNW7">几乎全部一件就超标</strong>，
+    最低的儿童鱼排堡仍占 147%。这是数据给出的结论，不是营销话术 ——
+    它诚实说明：<strong data-page-node-id="BTkC9YKbL6tt8rjrMORKpM">高血压人群在麦当劳吃早餐，钠几乎必然超标，能做的是选相对最低的那一档，
+    而不是假装找到了一个"健康选项"。</strong>
+  </div>
+
+  <h2 data-page-node-id="rpfBNh2nQuAWquQYDjbpYK">指南锚点</h2>
+  <table data-page-node-id="dEn4EE6WK314MAaYQOtv3W">
+    <thead data-page-node-id="FXFGY9OqsjL0X9r2B8PLEL"><tr data-page-node-id="t7COarR7JtuYJdbmZu1egT"><th data-page-node-id="or4rZv42rrFYyiTDo53Xuo">阈值</th><th class="num" data-page-node-id="gFGvre31YYrsH4gWddoOH2">取值</th><th data-page-node-id="wpKJBKHCy4haYACMalsc7o">依据</th></tr></thead>
+    <tbody data-page-node-id="u1w1IDsDcD3STvMpAybT3o">
+      <tr data-page-node-id="N5TqYfL6On6SWfUGBM2lQy"><td data-page-node-id="MIQAUKfygh1htL3cQgVF5A">一般人群每日钠</td><td class="num" data-page-node-id="Z1rWFbEGwLjmYDzpDmRCZM">2000 mg/d</td><td data-page-node-id="RT3JN0XlZhWDzXmYbVEpbN">《中国高血压防治指南(2024年修订版)》：食盐 &lt; 5 g/d</td></tr>
+      <tr data-page-node-id="nWpz47WLHgBKAMvLmG7pKQ"><td data-page-node-id="fAytwkKguwVGZFmV4kyNMa">高血压／心衰／肾病／盐敏感</td><td class="num" data-page-node-id="mRgUPDkQBpiifqVbsukOfW">1500 mg/d</td><td data-page-node-id="WCXEHRg34RZ9sukSVwRPDe">DASH 低钠版</td></tr>
+      <tr data-page-node-id="P0TyB88TCs56lCHQs0Hsq4"><td data-page-node-id="BwqAN78vxEFhr7XHSdLt2f">每日能量</td><td class="num" data-page-node-id="rQHMVDAgoGpbD3rssarHka">2000 kcal/d</td><td data-page-node-id="i7P62HEVH9nl4E8CPg0Jo0">成人参考摄入量；能量权重 30/40/30（《中国居民膳食指南》）</td></tr>
+      <tr data-page-node-id="F5SURKq2U2iYwYwsZcAA34"><td data-page-node-id="t7kZw94MkjkWCVWyTVO76M">每日脂肪</td><td class="num" data-page-node-id="qJsdGcy762ZFlyWJ8K0VF7">66.7 g/d</td><td data-page-node-id="AhXPfbU84BBuXsZdHejwyX">2000 kcal/d × 30% ÷ 9 kcal/g（脂肪供能比上限 30%）</td></tr>
+      <tr data-page-node-id="1Vdf4Ti598MR4mQLG6hQCh"><td data-page-node-id="q2u1Ddo8cVMK7v1RmtxgFH">每日碳水</td><td class="num" data-page-node-id="gcD6qoBiZE7JMV0RCQgejG">275 g/d</td><td data-page-node-id="2uRbNpO0GEu025PLiVsbHT">2000 kcal/d × 55% ÷ 4 kcal/g</td></tr>
+      <tr data-page-node-id="53i6VbK1BO7i16IZQUwWij"><td data-page-node-id="NhoLTBbEo5VLvLYEDn4lL3">钠餐次权重</td><td class="num" data-page-node-id="vh3ALTUq488c9PG21T28HV">20/40/40/10</td><td data-page-node-id="kYBwkMGoXcfjwqbpLBWpxj"><strong data-page-node-id="EN8DTM43R8kxgxGkNvOHRy">工程默认值</strong>，非指南硬性数值；早餐钠负荷低是方向性事实</td></tr>
+    </tbody>
+  </table>
+  <p data-page-node-id="gzWyKKUDfQTpy6WVxk3INl">分级规则：占单餐预算 <code data-page-node-id="V0nPIgnlEECdcny69wlUUI">≤ 1/3</code> 🟢 ｜ <code data-page-node-id="vAkekntnAxnY5Yo9E9sDbp">≤ 2/3</code> 🟡 ｜ <code data-page-node-id="HSHmAWpJj1BRmym7qqfQbz">&gt; 2/3</code> 🔴。
+  <strong data-page-node-id="GEMgwPwwYle8Yt23ojdLSf">短板原则</strong>：单项最终等级 = 各风险维度中的最差值 —— 钠已达红灯的餐品，不会因为蛋白质高就变绿灯。</p>
+
+  <div class="warn" data-page-node-id="c33878txejaGMa0RVMroEa">
+    <strong data-page-node-id="fBIp6k8BqlTmHEoWqLcBVs">⚠️ 关于缺失维度（重要）</strong><br data-page-node-id="1gLtjUp4sDsKCupXq6BbeP">
+    麦当劳 MCP 的 <code data-page-node-id="AeHNc3KbSyGLYE6UCmeODU">list-nutrition-foods</code> <strong data-page-node-id="nV7ai1QyXzYbB6uUFDFW04">只返回总脂肪，不提供饱和脂肪酸与反式脂肪酸的拆分值</strong>。
+    本项目因此<strong data-page-node-id="JpF4Qj3k13LqXkptsu9o9O">不评这两个维度</strong>，不以总脂肪冒充饱和脂肪、不臆造数值，
+    并用单元测试 <code data-page-node-id="DFCAtJPNED5S80MLnH8R01">test_no_saturated_fat_dimension</code> 把这件事锁死。
+  </div>
+
+  <h2 data-page-node-id="vpR8CVCnPOtBlkwxRygwpa">与其他麦当劳 Skill 的区别</h2>
+  <table data-page-node-id="scWW8LuR5246hcdxgKNXSf">
+    <thead data-page-node-id="RUc2FnOoKgaW4BrUGsWHTa"><tr data-page-node-id="w449Knqv2qxdAf2cBlYYn7"><th data-page-node-id="RdkYthyXlNve32N0uEbbE4"></th><th data-page-node-id="iyQwpTroEViEsvVi9BIRgn">常见做法</th><th data-page-node-id="LePw8H7LgF1yXeMHFhE1jg">CardioMCD</th></tr></thead>
+    <tbody data-page-node-id="TUS4oV8S5pquZCu1Ue1VjU">
+      <tr data-page-node-id="8ydgbNANFM0iZ3J9mUgO2k"><td data-page-node-id="PJQ1ECCNBHBX06mhntJRGz">判定维度</td><td data-page-node-id="3QzkCqJnbHqBAwK14o9B5U">热量、宏量营养素</td><td data-page-node-id="6gQEvKdMGD06vz4n2HGLPB"><strong data-page-node-id="le21Jy9rrMDWG4iFWlqgxc">钠优先</strong>，按临床画像 + 餐次动态收紧</td></tr>
+      <tr data-page-node-id="IZzVWtosyhJZXcbdTBvCXk"><td data-page-node-id="RZcxmYM5VBzSS8sG0S7jXf">单餐预算</td><td data-page-node-id="xfXOUjcm75WVbZvPPI9ItR">日预算 ÷ 3（隐含三餐均分假设）</td><td data-page-node-id="CpfnGiRe7drgGHGfEHHExO"><strong data-page-node-id="B4AYtY4onlZqCPCGoM3svz">餐次显式化</strong>，钠/能量权重分离</td></tr>
+      <tr data-page-node-id="ZBs9fGdiOB9VCng5DFwcth"><td data-page-node-id="gJfZNeodo7xrbfBWB9pwYC">阈值来源</td><td data-page-node-id="kobqVBbanduVORHFFSwtHL">自定义／未说明</td><td data-page-node-id="tEfLB0rplS3yjGyZwDSmVt"><strong data-page-node-id="J33rGjgiXpQ5cYBurWUAxm">明确锚定指南原文</strong>，并标注证据强度</td></tr>
+      <tr data-page-node-id="ocZbIKTLNTcNcr4n5L1y26"><td data-page-node-id="uBp87II2cTU4RJBDzpOMCT">缺失数据</td><td data-page-node-id="CrpoxIVjt144F1qRFqrWGn">用总脂肪近似饱和脂肪</td><td data-page-node-id="pPDTC06H8Wk4BiSkvys3Ep"><strong data-page-node-id="7bSPdXjy0MqjHr5G6188xF">显式声明不评分</strong>，有测试锁死</td></tr>
+      <tr data-page-node-id="AhL8dgaWVSA4pVga90LgeF"><td data-page-node-id="P7hDG71W3xX9JROtbaRpRB">数据缺失时</td><td data-page-node-id="6hGOuvCnlQAC4SrB8WVqYE">给一个看似合理的答案</td><td data-page-node-id="NdWEQm7bZTIZWqmk8HM7Xn"><strong data-page-node-id="KBwsEYotiSjBQtGWLCHYaO">拒绝给出答案</strong>，如实说明假设不成立</td></tr>
+      <tr data-page-node-id="1vb8QKYRWR7d2l6IIyZIRW"><td data-page-node-id="gJBqVMA37cJsXN2SquRl0j">输出</td><td data-page-node-id="flAOxCe27HDVt6IM94luU7">"这个 500 kcal"</td><td data-page-node-id="lbwHf3MEayhiCcEPUE7vMj">"这一份就占掉你早餐钠预算的 403%"</td></tr>
+    </tbody>
+  </table>
+
+  <h2 data-page-node-id="gWN81ePdckpAA3VQKFMYAB">运行方式</h2>
+  <p data-page-node-id="brAYfFxu4S1kHiGyUN2TnH"><code data-page-node-id="tiSBqP8KAB6eQAUQAlQAFl">python demo/run_demo.py --meal breakfast --hypertension</code></p>
+  <p class="sub" style="margin:4px 0 0" data-page-node-id="Snx0SPKsIL2IMeK5zUH79e">零第三方依赖，Python 3.9+。不传 <code data-page-node-id="QQxeoRx5TYIXPYVNimFa6v">--meal</code> 时不做餐次分配，只报占每日预算比例。</p>
+
+  <div class="disc" data-page-node-id="jBMkAifsCCJhG2L9fRcTAC">
+    <strong data-page-node-id="e9vgFMNWY1pb2wEVCpoIPB">免责声明</strong><br data-page-node-id="rIBN5OslrTFFXaxjS4svph">
+    本输出为营养数值的<strong data-page-node-id="DNZnhiRQEMh3kNMXJqxqa8">相对比较</strong>，<strong data-page-node-id="dU2xyGyDa05OY4N8clS1wY">不构成医疗、营养或任何专业建议</strong>，不能替代医师诊断与治疗方案。
+    请将其理解为「在均衡膳食前提下，偶尔外食时的相对更优选择」，不鼓励过量或高频消费。
+    餐品信息、价格及供应状态以麦当劳官方渠道的实时结果为准。<br data-page-node-id="uhfm8L5KUw1FX4KHISAXKO">
+    本项目为麦当劳程序员节创意开发大赛参赛作品，由参赛者独立开发，<strong data-page-node-id="bO6ZPzEDdfPCMe575kxF23">非麦当劳官方产品</strong>。
+  </div>
+
+  <p class="footer" data-page-node-id="380c2KEKzf3otP2xCKVklI">
+    数据快照时间：2026-10-10 ｜ 数据来源：麦当劳 MCP <code data-page-node-id="asYZwDbDQBWqMc2xwKEq38">list-nutrition-foods</code>（实时调用，解析 158 条）<br data-page-node-id="5YWEk9Fz3sU6601mWa6lDV">
+    © 2026 McDonald's. All Rights Reserved. 本项目仅用于实现与麦当劳 MCP 服务的连接与使用。
+  </p>
+
+</div>
+</body>
+</html>
